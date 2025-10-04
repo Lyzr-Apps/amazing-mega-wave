@@ -181,7 +181,7 @@ function App() {
         formattedResponse = `**Feedback Received**\n\n`;
         formattedResponse += `${responseData.feedback_processed.response || 'Thank you for your feedback! We appreciate your input and will use it to improve our services.'}`;
       } else {
-        formattedResponse = 'I understand your query and I'm here to help! Let me assist you with your request.';
+        formattedResponse = "I understand your query and I'm here to help! Let me assist you with your request.";
       }
 
       if (responseData.response?.suggested_links) {
